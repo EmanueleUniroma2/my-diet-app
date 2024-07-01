@@ -1,0 +1,62 @@
+.meals-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.meals-title-label {
+  font-size: 1.5em;
+}
+
+.meals-wrapper {
+  padding: 1em;
+}
+
+.meal-ingredients {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.meal-ingredient {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.meal-name {
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+.meal-ingredient-name {
+  width: 30vw;
+  max-width: 400px;
+}
+
+.meal-ingredient-quantity {
+  font-weight: bold;
+}
+
+.meal-ingredient-extra {
+  opacity: 0.8;
+  font-size: 0.8em;
+}
+
+.meal-ingredient-main-wrap {
+  margin-bottom: 1em;
+}
+
+.page-main-wrap {
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.under-hint {
+  padding: 1em;
+  font-weight: 600;
+}
+
+.page-inner-wrap {
+  background: rgba(255, 255, 255, 0.8);
+}
